@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:medicine_app/medicine_shedule_screen.dart';
+import 'package:medicine_app/view/medicine_shedule_screen.dart';
 
 void main() {
   runApp(MedicineApp());
 }
 
 class MedicineApp extends StatelessWidget {
+  const MedicineApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
